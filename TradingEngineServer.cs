@@ -6,13 +6,13 @@ using System.Threading;
 using System.Threading.Tasks;
 using TradingEngineServer.Core.Configuration;
 
-namespace TradingEngineService.Core
+namespace TradingEngineServer.Core
 {
-    internal class TradingEngineService : BackgroundService, ITradingEngineService
+    internal sealed class TradingEngineServer : BackgroundService, ITradingEngineServer
     {
-        private readonly ILogger<TradingEngineService> _logger;
-        private readonly TradingEngineServiceConfiguration _tradingEngineServiceConfig;
-        public TradingEngineService(ILogger<TradingEngineService> logger, IOptions<TradingEngineServiceConfiguration> config)
+        private readonly ILogger<TradingEngineServer> _logger;
+        private readonly TradingEngineServerConfiguration _tradingEngineServiceConfig;
+        public TradingEngineServer(ILogger<TradingEngineServer> logger, IOptions<TradingEngineServerConfiguration> config)
         {
             _logger = logger ?? throw new ArgumentNullException(nameof(logger));
             _tradingEngineServiceConfig = config.Value ?? throw new ArgumentNullException(nameof(config));
@@ -22,10 +22,12 @@ namespace TradingEngineService.Core
 
         protected override Task ExecuteAsync(CancellationToken stoppingToken)
         {
+            _logger.LogInformation($"Started {nameof(TradingEngineServer)}");
             while (!stoppingToken.IsCancellationRequested)
             {
-
+                
             }
+            _logger.LogInformation($"Stopped {nameof(TradingEngineServer)}");
             return Task.CompletedTask;
         }
     }

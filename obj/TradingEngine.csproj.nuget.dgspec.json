@@ -8,7 +8,7 @@
       "version": "1.0.0",
       "restore": {
         "projectUniqueName": "C:\\Users\\soren\\source\\repos\\TradingEngine\\TradingEngine.csproj",
-        "projectName": "TradingEngineService.Core",
+        "projectName": "TradingEngineServer.Core",
         "projectPath": "C:\\Users\\soren\\source\\repos\\TradingEngine\\TradingEngine.csproj",
         "packagesPath": "C:\\Users\\soren\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\soren\\source\\repos\\TradingEngine\\obj\\",
@@ -45,6 +45,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
             "Microsoft.Extensions.Hosting.Abstractions": {
               "target": "Package",
               "version": "[7.0.0, )"
