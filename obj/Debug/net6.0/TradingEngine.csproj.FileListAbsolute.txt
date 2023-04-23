@@ -1,0 +1,5 @@
+C:\Users\soren\source\repos\TradingEngine\obj\Debug\net6.0\TradingEngine.csproj.AssemblyReference.cache
+C:\Users\soren\source\repos\TradingEngine\obj\Debug\net6.0\TradingEngine.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\soren\source\repos\TradingEngine\obj\Debug\net6.0\TradingEngine.AssemblyInfoInputs.cache
+C:\Users\soren\source\repos\TradingEngine\obj\Debug\net6.0\TradingEngine.AssemblyInfo.cs
+C:\Users\soren\source\repos\TradingEngine\obj\Debug\net6.0\TradingEngine.csproj.CoreCompileInputs.cache
