@@ -1,0 +1,10 @@
+C:\Users\soren\source\repos\TradingEngine\Orders\bin\Debug\netstandard2.1\TradingEngineServer.Orders.deps.json
+C:\Users\soren\source\repos\TradingEngine\Orders\bin\Debug\netstandard2.1\TradingEngineServer.Orders.dll
+C:\Users\soren\source\repos\TradingEngine\Orders\bin\Debug\netstandard2.1\TradingEngineServer.Orders.pdb
+C:\Users\soren\source\repos\TradingEngine\Orders\obj\Debug\netstandard2.1\Orders.csproj.AssemblyReference.cache
+C:\Users\soren\source\repos\TradingEngine\Orders\obj\Debug\netstandard2.1\Orders.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\soren\source\repos\TradingEngine\Orders\obj\Debug\netstandard2.1\Orders.AssemblyInfoInputs.cache
+C:\Users\soren\source\repos\TradingEngine\Orders\obj\Debug\netstandard2.1\Orders.AssemblyInfo.cs
+C:\Users\soren\source\repos\TradingEngine\Orders\obj\Debug\netstandard2.1\Orders.csproj.CoreCompileInputs.cache
+C:\Users\soren\source\repos\TradingEngine\Orders\obj\Debug\netstandard2.1\TradingEngineServer.Orders.dll
+C:\Users\soren\source\repos\TradingEngine\Orders\obj\Debug\netstandard2.1\TradingEngineServer.Orders.pdb

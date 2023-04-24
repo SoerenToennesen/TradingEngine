@@ -1,0 +1,116 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETStandard,Version=v2.1": {
+      "TradingEngineServer.Instrument/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/TradingEngineServer.Instrument.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TradingEngineServer.Instrument.dll": {}
+        }
+      },
+      "TradingEngineServer.Orders/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/TradingEngineServer.Orders.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TradingEngineServer.Orders.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TradingEngineServer.Instrument/1.0.0": {
+      "type": "project",
+      "path": "../Instrument/Instrument.csproj",
+      "msbuildProject": "../Instrument/Instrument.csproj"
+    },
+    "TradingEngineServer.Orders/1.0.0": {
+      "type": "project",
+      "path": "../Orders/Orders.csproj",
+      "msbuildProject": "../Orders/Orders.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETStandard,Version=v2.1": [
+      "TradingEngineServer.Instrument >= 1.0.0",
+      "TradingEngineServer.Orders >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\soren\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\soren\\source\\repos\\TradingEngine\\Orderbook\\Orderbook.csproj",
+      "projectName": "TradingEngineServer.Orderbook",
+      "projectPath": "C:\\Users\\soren\\source\\repos\\TradingEngine\\Orderbook\\Orderbook.csproj",
+      "packagesPath": "C:\\Users\\soren\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\soren\\source\\repos\\TradingEngine\\Orderbook\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\soren\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netstandard2.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "projectReferences": {
+            "C:\\Users\\soren\\source\\repos\\TradingEngine\\Instrument\\Instrument.csproj": {
+              "projectPath": "C:\\Users\\soren\\source\\repos\\TradingEngine\\Instrument\\Instrument.csproj"
+            },
+            "C:\\Users\\soren\\source\\repos\\TradingEngine\\Orders\\Orders.csproj": {
+              "projectPath": "C:\\Users\\soren\\source\\repos\\TradingEngine\\Orders\\Orders.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netstandard2.1": {
+        "targetAlias": "netstandard2.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "NETStandard.Library": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

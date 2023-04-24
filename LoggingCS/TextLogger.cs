@@ -19,7 +19,7 @@ namespace TradingEngineServer.Logging
             {
                 throw new InvalidOperationException($"{nameof(TextLogger)} doesn't match LoggerType of {_loggingConfiguration.LoggerType}");
             }
-            var now = DateTime.Now;
+            var now = DateTime.UtcNow;
             string logDirectory = Path.Combine(_loggingConfiguration.TextLoggerConfiguration.Directory, $"{now:yyyy-MM-dd}");
             string uniqueLogName = $"{_loggingConfiguration.TextLoggerConfiguration.Filename}-{now:HH_mm_ss}";
             string baseLogName = Path.ChangeExtension(uniqueLogName, _loggingConfiguration.TextLoggerConfiguration.FileExtension);
@@ -52,7 +52,7 @@ namespace TradingEngineServer.Logging
 
         protected override void Log(LogLevel logLevel, string module, string message)
         {
-            _logQueue.Post(new LogInformation(logLevel, module, message, DateTime.Now, Thread.CurrentThread.ManagedThreadId, Thread.CurrentThread.Name));
+            _logQueue.Post(new LogInformation(logLevel, module, message, DateTime.UtcNow, Thread.CurrentThread.ManagedThreadId, Thread.CurrentThread.Name));
         }
 
         // Think of this as destructor
