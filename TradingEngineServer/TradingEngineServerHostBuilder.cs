@@ -17,8 +17,8 @@ namespace TradingEngineServer.Core
         {
             // Start with configuration
             services.AddOptions();
-            services.Configure<TradingEngineServerConfiguration>(context.Configuration.GetSection(nameof(TradingEngineServerConfiguration)))
-            services.Configure<LoggingConfiguration>(context.Configuration.GetSection(nameof(LoggingConfiguration)))
+            services.Configure<TradingEngineServerConfiguration>(context.Configuration.GetSection(nameof(TradingEngineServerConfiguration)));
+            services.Configure<LoggingConfiguration>(context.Configuration.GetSection(nameof(LoggingConfiguration)));
 
             // Add singleton objects
             services.AddSingleton<ITradingEngineServer, TradingEngineServer>();

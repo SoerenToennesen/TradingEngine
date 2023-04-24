@@ -372,9 +372,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\soren\\source\\repos\\TradingEngine\\LoggingCS\\LoggingCS.csproj",
+      "projectUniqueName": "C:\\Users\\soren\\source\\repos\\TradingEngine\\LoggingCS\\Logging.csproj",
       "projectName": "TradingEngineServer.Logging",
-      "projectPath": "C:\\Users\\soren\\source\\repos\\TradingEngine\\LoggingCS\\LoggingCS.csproj",
+      "projectPath": "C:\\Users\\soren\\source\\repos\\TradingEngine\\LoggingCS\\Logging.csproj",
       "packagesPath": "C:\\Users\\soren\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\soren\\source\\repos\\TradingEngine\\LoggingCS\\obj\\",
       "projectStyle": "PackageReference",

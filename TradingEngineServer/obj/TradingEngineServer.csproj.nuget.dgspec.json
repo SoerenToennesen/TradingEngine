@@ -4,12 +4,12 @@
     "C:\\Users\\soren\\source\\repos\\TradingEngine\\TradingEngineServer\\TradingEngineServer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\soren\\source\\repos\\TradingEngine\\LoggingCS\\LoggingCS.csproj": {
+    "C:\\Users\\soren\\source\\repos\\TradingEngine\\LoggingCS\\Logging.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\soren\\source\\repos\\TradingEngine\\LoggingCS\\LoggingCS.csproj",
+        "projectUniqueName": "C:\\Users\\soren\\source\\repos\\TradingEngine\\LoggingCS\\Logging.csproj",
         "projectName": "TradingEngineServer.Logging",
-        "projectPath": "C:\\Users\\soren\\source\\repos\\TradingEngine\\LoggingCS\\LoggingCS.csproj",
+        "projectPath": "C:\\Users\\soren\\source\\repos\\TradingEngine\\LoggingCS\\Logging.csproj",
         "packagesPath": "C:\\Users\\soren\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\soren\\source\\repos\\TradingEngine\\LoggingCS\\obj\\",
         "projectStyle": "PackageReference",
@@ -103,8 +103,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\soren\\source\\repos\\TradingEngine\\LoggingCS\\LoggingCS.csproj": {
-                "projectPath": "C:\\Users\\soren\\source\\repos\\TradingEngine\\LoggingCS\\LoggingCS.csproj"
+              "C:\\Users\\soren\\source\\repos\\TradingEngine\\LoggingCS\\Logging.csproj": {
+                "projectPath": "C:\\Users\\soren\\source\\repos\\TradingEngine\\LoggingCS\\Logging.csproj"
               }
             }
           }

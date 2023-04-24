@@ -4,8 +4,8 @@
     <TargetFramework>netstandard2.1</TargetFramework>
     <Nullable>enable</Nullable>
 	<LangVersion>9</LangVersion>
-	<RouteNamespace>TradingEngineServer.Logging</RouteNamespace>
-	<AssemblyName>TradingEngineServer.Logging</AssemblyName>
+	<RouteNamespace>TradingEngineServer.Instrument</RouteNamespace>
+	<AssemblyName>TradingEngineServer.Instrument</AssemblyName>
   </PropertyGroup>
 
 </Project>

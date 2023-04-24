@@ -1,13 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Threading.Tasks.Dataflow;
-using LoggingCS;
 using Microsoft.Extensions.Options;
-using TradingEngineServer.Logging;
 
 using TradingEngineServer.Logging.Configuration;
 
@@ -51,7 +47,7 @@ namespace TradingEngineServer.Logging
         private static string FormatLogItem(LogInformation logItem)
         {
             return $"[{logItem.Now:yyyy-MM-dd HH-mm-ss.fffffff}] [{logItem.ThreadName, -30}:{logItem.ThreadId:000}]" +
-                $"[{logItem.LogLevel}] {logItem.Message}";
+                $"[{logItem.LogLevel}] {logItem.Message}\n";
         }
 
         protected override void Log(LogLevel logLevel, string module, string message)
